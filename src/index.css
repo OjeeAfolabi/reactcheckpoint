@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Fira sans";
+}
+.nav-bar {
+  background-color: white;
+  display: flex;
+  padding: 15px;
+  padding-right: 40px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  justify-content: end;
+}
+
+.nav-bar,
+ul {
+  display: flex;
+  font-size: 20px;
+  gap: 20px;
+  list-style-type: none;
+  color: black;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5rem;
+  height: 270px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background-color: rgb(193, 193, 255);
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.j-cole {
+  height: 100px;
+  border-radius: 10px;
+}
+button {
+  color: blue;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
+.card:hover {
+  box-shadow: 5px 10px 8px #888888;
+}
+h3 {
+  margin: 2rem 0 1rem 1rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
